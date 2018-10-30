@@ -8,14 +8,14 @@ using namespace std;
 
 class A{
     public:
-    static int count;
+    static int count;                 //count keeps track of number of objects created. Being a static member it is allocated memory only once  
     A(){
-        count++;
+        count++;		      //the count is updated in the constructor
     }
    
 };
 
-int A::count=0;
+int A::count=0;			     //Initialising static member count
 
 
 
