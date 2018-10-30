@@ -26,5 +26,10 @@ int main()
 
         A b;
         cout<<endl<<b.count<<endl;
+		
+	if(a.count==b.count)
+	{
+		cout<<"There is only one memory location for count member of class A";
+	}
 
     }
